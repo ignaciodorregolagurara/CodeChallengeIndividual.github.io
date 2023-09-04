@@ -1,3 +1,21 @@
 body {
     font-size: 62.5%; /* 1rem = 10px */
 }
+
+form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.info > label {
+    margin-bottom: 0.5rem;
+}
