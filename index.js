@@ -2,7 +2,15 @@ let nombrePersona = document.getElementById("nom");
 let apellidoPersona = document.getElementById("ape");
 let fechaNacimientoPersona = document.getElementById("nac");
 let btnEnvio = document.getElementById("btnEnvio");
-let URLJson = `https://jsonplaceholder.typicode.com/users`;
+let btnLimpiar = document.getElementById("btnLimpiar");
+let URLJson = 'https://jsonplaceholder.typicode.com/users';
+
+btnLimpiar.addEventListener("click", function(e) {
+    e.preventDefault();
+    nombrePersona.value = "";
+    apellidoPersona.value = "";
+    fechaNacimientoPersona.value = "";
+})
 
 btnEnvio.addEventListener("click", function(e) {
     e.preventDefault();
@@ -15,6 +23,7 @@ btnEnvio.addEventListener("click", function(e) {
         apellido: ape,
         fechaNacimiento: nac
     };
+    /* console.log(infoPersona); */
 
     fetch(URLJson)
         .then(function(response) {
@@ -23,6 +32,4 @@ btnEnvio.addEventListener("click", function(e) {
         .then(function() {
             
         })
-
-    /* console.log(infoPersona); */
 })
