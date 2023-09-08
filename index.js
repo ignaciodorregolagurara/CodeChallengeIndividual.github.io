@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     let infoFormulario = document.getElementById("infoDeFormulario");
                     let AuxInfo = document.createElement("p");
                     AuxInfo.innerHTML += `
-                        <strong>Nombre de la Persona:</strong> ${data.name}
+                        <strong>Nombre de la Persona:</strong> ${data.nombre}
                         <br>
                         <strong>Apellido de la Persona:</strong> ${data.apellido}
                         <br>
