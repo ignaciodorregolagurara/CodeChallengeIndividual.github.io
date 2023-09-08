@@ -2,6 +2,11 @@ body {
     font-size: 62.5%; /* 1rem = 10px */
 }
 
+.borderAux {
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+}
+
 form {
     margin-top: 1rem;
     padding: 1rem;
@@ -81,4 +86,16 @@ form {
     .contenedorBoton > input:hover {
         cursor: pointer;
     }
+}
+
+#infoDeFormulario  {
+    margin: 2rem auto 0 auto;
+    width: 80%;
+    max-height: 400px;
+    overflow: auto;
+    font-size: 1rem;
+}
+
+#infoDeFormulario p {
+    margin: 1.3rem;
 }
