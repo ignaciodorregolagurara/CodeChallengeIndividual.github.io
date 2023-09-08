@@ -1,4 +1,4 @@
-# CodeChallengeIndividual.github.io
+# CodeChallenge_JAP_S11.github.io
 Ejercicio solicitado de Desafio Sincronico (Semana 11) (Fase 2 - Nivel 1)
 Jovenes A Programar Ceibal
 
